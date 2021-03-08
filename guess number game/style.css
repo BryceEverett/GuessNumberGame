@@ -1,0 +1,19 @@
+* {
+    text-align: center;
+    background-image: url();
+}
+/*The styling for the win button */
+#win {
+    animation: textgrowth 1s infinite alternate;
+    -webkit-text-stroke-width: 2.3px;
+  -webkit-text-stroke-color: white;
+ }
+ /* The animation for the win screen */
+ @keyframes textgrowth {
+     0% {
+     font-size: 40px;
+     }
+     100% {
+     font-size: 55px;
+     }
+ }
