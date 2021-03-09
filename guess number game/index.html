@@ -7,15 +7,9 @@
     <link href= "style.css" rel="stylesheet">
     <link rel="shortcut icon" href="https://img.icons8.com/nolan/2x/123.png">
 <body>
-   
-   <input type="button" value="Click me"
-    onclick="looperino()"> 
-   <input type="button" value="Clear" 
-   onclick="clearField()">
-   <p id="demo">Something will populate here.</p> 
+
 <br>
 <br>
-<hr>
 <br>
 <br>
 <h1>Guess My Number</h1>
@@ -24,15 +18,17 @@
 <button id="startBtn" type="button" onclick="resetFunction()">Reset</button>
 <br>
 <button id="submitBtn" type="button" onclick="myFunction()">Submit</button>
+<br>
+<button id="scoreBtn" type="button" onclick="scoreSubmit()">Score Points</button>
+<p id="highscore"></p>
 <p id="score"> </p> 
 <p id ="response"></p>
 <p id ="answer"></p>
 <p id ="yourGuess"></p>
 <p id="corGuess"></p>
 <h3 id="gueNum"></h3>
-
-
 <h1 id="win"></h1>
+
     <script src="script.js"></script>
 </body>
 </html>
