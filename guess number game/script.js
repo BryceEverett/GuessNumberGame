@@ -1,6 +1,3 @@
-//#region Iteration Code
-
-//#endregion
 
 //#region Guess My Number
 let totalGuesses = 0;
@@ -78,10 +75,5 @@ function myFunction() {
 }
 //#endregion
 
-//#region arrays
 
-function gameReset() {}
 
-//#endregion
-
-//document.getElementById("submitBtn").disabled = false;
